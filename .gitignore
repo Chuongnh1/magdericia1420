@@ -1,0 +1,64 @@
+# magento db config #
+####################
+app/etc/local.xml
+.htaccess
+vendor/
+
+
+# magento folder #
+#####################
+media/*
+downloader/*
+var/*
+!var/.htaccess
+!var/backup/*
+errors/
+media
+media/*
+var/cache/*
+var/full_page_cache/*
+var/locks/*
+var/session/*
+var/tmp/*
+var/report/*
+var/log/*
+var/import/*
+var/export/*
+var/ftp/*
+downloader/*
+sitemap/*
+feeds/*
+/var/*.htaccess
+/var/.htaccess
+var/urapidflow/*
+var/logging/*
+var/backups/*
+
+# wordpress #
+#############
+#blog/wp-content/uploads/*
+#blog/wp-config.php
+
+# OS generated files #
+######################
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# eclipse file #
+##############
+.buildpath
+.project
+.setting/*
+nbproject/*
+var/package
+.htaccess
+media_old
+*.prefs
+
+# PHP Storm #
+.idea/*
+atlassian-ide-plugin.xml
+
+
